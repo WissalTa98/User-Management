@@ -1,0 +1,12 @@
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Infrastructure\bin\Debug\net6.0\Authentication.Infrastructure.deps.json
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Infrastructure\bin\Debug\net6.0\Authentication.Infrastructure.dll
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Infrastructure\bin\Debug\net6.0\Authentication.Infrastructure.pdb
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.AssemblyInfo.cs
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.dll
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Infrastructure\obj\Debug\net6.0\refint\Authentication.Infrastructure.dll
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.pdb
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Infrastructure\obj\Debug\net6.0\ref\Authentication.Infrastructure.dll

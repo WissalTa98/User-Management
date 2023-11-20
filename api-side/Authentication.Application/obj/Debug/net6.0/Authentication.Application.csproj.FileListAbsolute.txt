@@ -1,0 +1,12 @@
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Application\bin\Debug\net6.0\Authentication.Application.deps.json
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Application\bin\Debug\net6.0\Authentication.Application.dll
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Application\bin\Debug\net6.0\Authentication.Application.pdb
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Application\obj\Debug\net6.0\Authentication.Application.csproj.AssemblyReference.cache
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Application\obj\Debug\net6.0\Authentication.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Application\obj\Debug\net6.0\Authentication.Application.AssemblyInfoInputs.cache
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Application\obj\Debug\net6.0\Authentication.Application.AssemblyInfo.cs
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Application\obj\Debug\net6.0\Authentication.Application.csproj.CoreCompileInputs.cache
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Application\obj\Debug\net6.0\Authentication.Application.dll
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Application\obj\Debug\net6.0\refint\Authentication.Application.dll
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Application\obj\Debug\net6.0\Authentication.Application.pdb
+C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Application\obj\Debug\net6.0\ref\Authentication.Application.dll
