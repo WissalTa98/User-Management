@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w1yqp1GJZV86g9eYtXQCzi8Xe7WGAABSEzC7sMJ+b+D0k6p4C38CL5WRNVgPJAEHP4oFjrAiRsj3RZ9WdZTnCA==",
+  "dgSpecHash": "Biff0KOIiK1RE2COARKkDONHmY2D52zpVYyh8WlCjtUKEUseTy46kkNhEFTsVjRlGAyvDFTbckuT8iQExG9CJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.Domain\\Authentication.Domain.csproj",
+  "projectFilePath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\Authentication.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CR519HE\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\CR519HE\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

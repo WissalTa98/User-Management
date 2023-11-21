@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "Authentication.API/1.0.0": {
         "dependencies": {
+          "Authentication.Application": "1.0.0",
           "Authentication.Domain": "1.0.0",
+          "Authentication.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.25",
           "Microsoft.AspNetCore.Identity": "2.1.39",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
@@ -901,6 +903,14 @@
           }
         }
       },
+      "Authentication.Application/1.0.0": {
+        "dependencies": {
+          "Authentication.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Authentication.Application.dll": {}
+        }
+      },
       "Authentication.Domain/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
@@ -908,6 +918,14 @@
         },
         "runtime": {
           "Authentication.Domain.dll": {}
+        }
+      },
+      "Authentication.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Authentication.Application": "1.0.0"
+        },
+        "runtime": {
+          "Authentication.Infrastructure.dll": {}
         }
       }
     }
@@ -1583,7 +1601,17 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
+    "Authentication.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Authentication.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Authentication.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

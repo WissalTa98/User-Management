@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Authentication.Domain
+namespace Authentication.Infrastructure.Data
 {
     public class AuthenticationDbContext : IdentityDbContext<ApplicationUser>
     {

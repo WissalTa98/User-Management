@@ -2799,11 +2799,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.Domain\\Authentication.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\Authentication.Domain.csproj",
       "projectName": "Authentication.Domain",
-      "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.Domain\\Authentication.Domain.csproj",
+      "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\Authentication.Domain.csproj",
       "packagesPath": "C:\\Users\\CR519HE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.Domain\\obj\\",
+      "outputPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CR519HE\\AppData\\Roaming\\NuGet\\NuGet.Config",

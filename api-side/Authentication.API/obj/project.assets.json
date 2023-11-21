@@ -1655,6 +1655,19 @@
           }
         }
       },
+      "Authentication.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Authentication.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Authentication.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Authentication.Application.dll": {}
+        }
+      },
       "Authentication.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1667,6 +1680,19 @@
         },
         "runtime": {
           "bin/placeholder/Authentication.Domain.dll": {}
+        }
+      },
+      "Authentication.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Authentication.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Authentication.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Authentication.Infrastructure.dll": {}
         }
       }
     }
@@ -4092,15 +4118,27 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Authentication.Application/1.0.0": {
+      "type": "project",
+      "path": "../Authentication.Application/Authentication.Application.csproj",
+      "msbuildProject": "../Authentication.Application/Authentication.Application.csproj"
+    },
     "Authentication.Domain/1.0.0": {
       "type": "project",
       "path": "../Authentication.Domain/Authentication.Domain.csproj",
       "msbuildProject": "../Authentication.Domain/Authentication.Domain.csproj"
+    },
+    "Authentication.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Authentication.Infrastructure/Authentication.Infrastructure.csproj",
+      "msbuildProject": "../Authentication.Infrastructure/Authentication.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Authentication.Application >= 1.0.0",
       "Authentication.Domain >= 1.0.0",
+      "Authentication.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.25",
       "Microsoft.AspNetCore.Identity >= 2.1.39",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.25",
@@ -4115,11 +4153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.API\\Authentication.API.csproj",
+      "projectUniqueName": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.API\\Authentication.API.csproj",
       "projectName": "Authentication.API",
-      "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.API\\Authentication.API.csproj",
+      "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.API\\Authentication.API.csproj",
       "packagesPath": "C:\\Users\\CR519HE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.API\\obj\\",
+      "outputPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CR519HE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4137,8 +4175,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.Domain\\Authentication.Domain.csproj": {
-              "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.Domain\\Authentication.Domain.csproj"
+            "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Application\\Authentication.Application.csproj": {
+              "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Application\\Authentication.Application.csproj"
+            },
+            "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\Authentication.Domain.csproj": {
+              "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\Authentication.Domain.csproj"
+            },
+            "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Infrastructure\\Authentication.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Infrastructure\\Authentication.Infrastructure.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.API\\Authentication.API.csproj": {}
+    "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.API\\Authentication.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.API\\Authentication.API.csproj": {
+    "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.API\\Authentication.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.API\\Authentication.API.csproj",
+        "projectUniqueName": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.API\\Authentication.API.csproj",
         "projectName": "Authentication.API",
-        "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.API\\Authentication.API.csproj",
+        "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.API\\Authentication.API.csproj",
         "packagesPath": "C:\\Users\\CR519HE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.API\\obj\\",
+        "outputPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CR519HE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.Domain\\Authentication.Domain.csproj": {
-                "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.Domain\\Authentication.Domain.csproj"
+              "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Application\\Authentication.Application.csproj": {
+                "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Application\\Authentication.Application.csproj"
+              },
+              "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\Authentication.Domain.csproj": {
+                "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\Authentication.Domain.csproj"
+              },
+              "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Infrastructure\\Authentication.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Infrastructure\\Authentication.Infrastructure.csproj"
               }
             }
           }
@@ -95,14 +101,74 @@
         }
       }
     },
-    "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.Domain\\Authentication.Domain.csproj": {
+    "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Application\\Authentication.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.Domain\\Authentication.Domain.csproj",
-        "projectName": "Authentication.Domain",
-        "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.Domain\\Authentication.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Application\\Authentication.Application.csproj",
+        "projectName": "Authentication.Application",
+        "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Application\\Authentication.Application.csproj",
         "packagesPath": "C:\\Users\\CR519HE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\LEONI\\Authentication.Domain\\obj\\",
+        "outputPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CR519HE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\Authentication.Domain.csproj": {
+                "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\Authentication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\Authentication.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\Authentication.Domain.csproj",
+        "projectName": "Authentication.Domain",
+        "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\Authentication.Domain.csproj",
+        "packagesPath": "C:\\Users\\CR519HE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CR519HE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -141,6 +207,66 @@
               "version": "[7.0.14, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Infrastructure\\Authentication.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Infrastructure\\Authentication.Infrastructure.csproj",
+        "projectName": "Authentication.Infrastructure",
+        "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Infrastructure\\Authentication.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\CR519HE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CR519HE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Application\\Authentication.Application.csproj": {
+                "projectPath": "C:\\Users\\CR519HE\\Projects\\LEONI_Project\\User-Management\\api-side\\Authentication.Application\\Authentication.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",

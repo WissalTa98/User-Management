@@ -10,3 +10,15 @@ C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Domain\obj\Debug\ne
 C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Domain\obj\Debug\net6.0\refint\Authentication.Domain.dll
 C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Domain\obj\Debug\net6.0\Authentication.Domain.pdb
 C:\Users\CR519HE\Projects\LEONI_Project\LEONI\Authentication.Domain\obj\Debug\net6.0\ref\Authentication.Domain.dll
+C:\Users\CR519HE\Projects\LEONI_Project\User-Management\api-side\Authentication.Domain\bin\Debug\net6.0\Authentication.Domain.deps.json
+C:\Users\CR519HE\Projects\LEONI_Project\User-Management\api-side\Authentication.Domain\bin\Debug\net6.0\Authentication.Domain.dll
+C:\Users\CR519HE\Projects\LEONI_Project\User-Management\api-side\Authentication.Domain\bin\Debug\net6.0\Authentication.Domain.pdb
+C:\Users\CR519HE\Projects\LEONI_Project\User-Management\api-side\Authentication.Domain\obj\Debug\net6.0\Authentication.Domain.csproj.AssemblyReference.cache
+C:\Users\CR519HE\Projects\LEONI_Project\User-Management\api-side\Authentication.Domain\obj\Debug\net6.0\Authentication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CR519HE\Projects\LEONI_Project\User-Management\api-side\Authentication.Domain\obj\Debug\net6.0\Authentication.Domain.AssemblyInfoInputs.cache
+C:\Users\CR519HE\Projects\LEONI_Project\User-Management\api-side\Authentication.Domain\obj\Debug\net6.0\Authentication.Domain.AssemblyInfo.cs
+C:\Users\CR519HE\Projects\LEONI_Project\User-Management\api-side\Authentication.Domain\obj\Debug\net6.0\Authentication.Domain.csproj.CoreCompileInputs.cache
+C:\Users\CR519HE\Projects\LEONI_Project\User-Management\api-side\Authentication.Domain\obj\Debug\net6.0\Authentication.Domain.dll
+C:\Users\CR519HE\Projects\LEONI_Project\User-Management\api-side\Authentication.Domain\obj\Debug\net6.0\refint\Authentication.Domain.dll
+C:\Users\CR519HE\Projects\LEONI_Project\User-Management\api-side\Authentication.Domain\obj\Debug\net6.0\Authentication.Domain.pdb
+C:\Users\CR519HE\Projects\LEONI_Project\User-Management\api-side\Authentication.Domain\obj\Debug\net6.0\ref\Authentication.Domain.dll
