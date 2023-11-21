@@ -13,7 +13,7 @@ namespace Authentication.API.Controllers
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-        private static readonly string secretMsg = "secret msg";
+        private static readonly string secretMsg = "ADMIN SECRET MESSAGE !!!!";
         private readonly ILogger<WeatherForecastController> _logger;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
